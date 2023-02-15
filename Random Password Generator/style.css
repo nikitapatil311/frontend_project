@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+    opacity: 0.9;
+}
+
+.form{
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 150px;
+    width: 500px;
+    background-color: blueviolet;
+    opacity: 80%;
+}
+
+.text-icon{
+    border:  solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.text{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    width: 400px;
+    outline: none;
+    font-size: 24px;
+    letter-spacing: 4px;
+    
+}
+
+.text::placeholder{
+    letter-spacing: 0px;
+}
+
+.fa-regular:hover{
+    color: darkgrey;
+    cursor: pointer;
+}
+
+.button{
+    background-color: black;
+    color: floralwhite;
+    margin: 10px;
+    height:30px;
+width: 100px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+padding: 0px 10px ;
+font-family:fantasy;
+font-size: 20px;
+text-align: center;
+cursor: pointer;
+}
+
+
+.button:hover{
+    background-color: rgb(108, 154, 63);
+}
+
+.button:active{
+    transform: scale(0.95);
+}
+
+.alert{
+    position: fixed;
+   
+    margin: 0;
+    height: 50px;
+    width: 350px;
+    background-color: orangered;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    display: flex;
+    bottom: 20px;
+    right: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.active.alert{
+    right: -400px;
+    transition: 4s;
+}

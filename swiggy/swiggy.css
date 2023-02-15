@@ -1,0 +1,41 @@
+.login{
+    text-align: left;
+
+}
+
+.header{
+   
+    height: 150px;
+    background-color: rgb(229, 232, 239);
+}
+
+.arrow{
+    
+    height: 50px;
+    width: 50px;
+}
+
+.image{
+    height: 120px;
+    width: 80px;
+    border:2px solid black;
+    margin-left: 85%;
+  }
+
+
+  .phonenum{
+    border: 2px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    color: rgb(240, 241, 245);
+  }
+
+  .btn{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(246, 178, 101);
+  }

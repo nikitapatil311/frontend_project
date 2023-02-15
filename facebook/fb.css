@@ -1,0 +1,74 @@
+.fb{
+    
+   
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+.form{
+    border: 2px solid rgb(182, 186, 183);
+    margin-top: 7px;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+    text-align: center;
+}
+
+.mail{
+    height: 50px;
+    width: 300px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+}
+
+.pass{
+    height: 50px;
+    width: 300px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+
+}
+
+.btn{
+    background-color: rgb(150, 150, 207);
+    height: 50px;
+    width: 310px;
+    border-radius: 6px;
+    color: aliceblue;
+    text-align: center;
+    border-color:aliceblue ;
+}
+
+.btn1{
+    height: 50px;
+    width: 310px;
+    border-radius: 6px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(217, 223, 39);
+    border-color: rgb(209, 208, 120);
+
+}
+
+.forgot{
+    color: rgb(150, 150, 207);
+}
+
+.section{
+    margin: 10px;
+}
+
+a{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}

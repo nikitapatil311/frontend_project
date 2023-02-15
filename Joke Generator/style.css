@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+
+
+}
+
+.joke-container{
+    background-color: rgb(208, 159, 167);
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+    width: 80%;
+    
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+   border-radius: 20px;
+   letter-spacing: 2px;
+
+
+}
+
+.heading{
+    color: darkred;
+    opacity: 0.7;
+    font-weight: 200;
+
+
+}
+
+.para{
+    color: darkred;
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.btn{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: cadetblue;
+    opacity: 0.7;
+    color: black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255,255,255,0.6);
+transition: all 300ms ease;
+}
